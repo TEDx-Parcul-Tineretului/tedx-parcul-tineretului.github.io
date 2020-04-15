@@ -1,0 +1,279 @@
+@charset "UTF-8";
+
+.topic2 {
+	color: #505050;
+	font-size: 25px;
+	font-weight: 700;
+	margin-left:7.5%;
+	padding-bottom:0;
+	margin-bottom: 1%;
+}
+.row{
+	padding-left: 6%;
+	padding-right: 0;
+	padding-top:40px;
+	width: 100%;
+	display:inline-block;
+}
+.row .description{
+	font-family: "Helvetica Neue", Helvetica, Arial, "sans-serif";
+	width:70%;
+	margin: auto;
+  	padding-left: 20px;
+ 	padding-right: 20px;
+	float: left;
+	text-align: justify;
+	color: #606060;
+	font-size: 1.25vw;
+}
+.row .description h4{
+	padding:0;
+	margin-top:0;
+	margin-bottom: 15px;
+	font-size:32px;
+	width:100%;
+	color:#505050;
+}
+.row h2{
+	color:#505050;
+	font-size:3vw;
+	width:47%;
+	font-family: Oswald;
+	border-bottom: 3px solid #e62b1e;
+	margin-top:0;
+}
+.dashed{
+	margin-top:30px;
+	border-top: 3px dashed #e62b1e;
+	width: 90%;
+	margin-left: 5%;
+	height:1px;
+}
+.description b{
+	color:#e62b1e;
+}
+.row .description .right{
+	text-align:right;
+}
+.row img{
+	height:13vw;
+	width:13vw;
+	border-radius:50%;
+	border:ridge 4px #e62b1e;
+	float: left;
+	margin:auto;
+	vertical-align: middle;
+}
+.row:after {
+	content: "";
+  	display: table;
+  	clear: both;
+}
+.text_column1 {
+	font-size: 20px;
+	text-align: justify;
+	line-height: 28px;
+	float: left;
+	color: #808080;
+}
+.about {
+	padding-left: 25px;
+	padding-right: 25px;
+	padding-top: 150px;
+	display: inline-block;
+	background-color: #f2f2f2;
+	margin-top: 0px;
+}
+.about h1{
+	font-family: Oswald,"sans-serif";
+	font-weight: bold;
+	font-size: 5vw;
+	line-height: 105%;
+	border-left:3px solid #e62b1e;
+	margin-top:0px;
+    text-shadow: 3px 4px 0px #e62b1e;
+	padding-left:5px;
+	white-space: nowrap;
+	color: #404040;
+	margin-left:6%;
+}
+.about h1 b{
+	color:#e62b1e;
+    text-shadow: 3px 4px 0px #404040;
+ }
+.hidden {
+	display: none;
+}
+
+/* Mobile */
+@media (max-width : 399px ){
+	
+.about h1{
+    text-shadow: 1px 2px 0px #e62b1e;
+	font-size: 8vw;
+	margin-top:30px;
+	margin-bottom:10px;
+	padding-bottom:6px;
+	padding-left:2px;
+	margin-left:0;
+}
+	
+.about h1 b{
+	text-shadow: 1px 2px 0px #505050;
+}
+.row .description{
+	width:60%;
+	font-size: 16px;
+}
+.row h2{
+	font-size: 10vw;
+	width:80%;
+}
+.row .description h4{
+	font-size: 11vw;
+}
+.row img{
+	height:18vw;
+	width:18vw;
+	border-radius:50%;
+	float: left;
+	margin:auto;
+	vertical-align: middle;
+}
+.row{
+	padding-left:0%;
+}
+.about{
+	padding-top:0;
+}
+.text_column1 {
+	font-size:5.5vw;
+	line-height: 180%;
+	width: 100%;
+	margin:0px;
+	padding:0px;
+	text-align: center;
+}
+}
+/* Small Tablets */
+@media (min-width : 400px ) and ( max-width : 580px ){
+
+.about h1{
+	font-size: 8vw;
+	margin-top:10px;
+	margin-bottom:30px;
+	padding-bottom:10px;
+	padding-left:5px;
+	margin-left:0%;
+}
+.row .description{
+	width:60%;
+	font-size:4vw;
+}
+.row h2{
+	font-size:8vw;
+	width:80%;
+}
+.about{
+	padding-top:0; 
+}
+.row img{
+	height:18vw;
+	width:18vw;
+	border-radius:50%;
+	float: left;
+	margin:auto;
+	vertical-align: middle;
+}
+.row{
+	padding-top: 4%;
+	padding-left:1%;	
+}
+.text_column1 {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+}
+@media (min-width : 581px ) and ( max-width : 767px ){
+	
+.about h1{
+	font-size: 8vw;
+	margin-top:10px;
+	margin-bottom:30px;
+	padding-bottom:10px;
+	padding-left:5px;
+	margin-left:0%;
+}
+.row .description{
+	font-size:3vw;
+}
+.row h2{
+	font-size:6vw;
+	width:80%;
+}
+.about{
+	padding-top:0; 
+}
+.row img{
+	height:17vw;
+	width:17vw;
+	border-radius:50%;
+	float: left;
+	margin:auto;
+	vertical-align: middle;
+}
+.row{
+	padding-left:1%;	
+}
+.text_column1 {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 10px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 10px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+}
+
+@media ( min-width : 768px ) and (max-width : 1075px ){
+
+.about h1{
+	font-size: 8vw;
+	margin-top:0px;
+	margin-bottom:30px;
+	padding-bottom:10px;
+	padding-left:5px;
+	margin-left:6%;
+}
+.row .description{
+	font-size:2vw;
+}
+.row h2{
+	font-size:5vw;
+	width:50%;
+}
+.about{
+	padding-top:60px; 
+}
+.text_column1 {
+	width: 100%;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	padding-top: 0px;
+	padding-right: 0px;
+	padding-bottom: 0px;
+	padding-left: 0px;
+}
+}
